@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+/* @apply {
+  .green_btn {
+    @apply bg-[#49AD09]
+          @apply px-9
+          @apply text-white
+          @apply text-base;
+  }
+} */
+
+@tailwind utilities;
+.root,
+#root,
+#docs-root {
+  --maincolor: #f2f2f2;
+}
